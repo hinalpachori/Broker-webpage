@@ -1,0 +1,261 @@
+
+  
+  
+  
+  nav {
+  
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+    color:black;
+    background-color:lightblue;
+    z-index:1;
+	  left:0;
+	  top:0;
+    width:100%;
+  
+  }
+  
+  .heading {
+  
+    color: white;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    
+   
+  }
+  .heading a{
+
+    text-decoration: none;
+    
+  }
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content:space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: black;
+  
+    text-decoration: none;
+  
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 10px 12px;
+  
+  }
+  .heading  span.color-b
+  {
+      color: green;
+  }
+  .heading .est:hover
+  {
+      color: green;
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+
+    text-decoration: green underline;
+  
+  }
+  
+  .nav-links li a.active {
+  
+    
+  
+    text-decoration: green underline;
+  
+  }
+  
+  /*.banner .welcome
+  {
+    
+    color:white;
+    padding :30px;
+    position:absolute;
+    left:0px;
+    top:30%;
+  }*/
+  .container
+  {
+   
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+.text{
+    position: absolute;
+    top: 36%;
+    left:5px;
+}
+
+  
+  .text h1{
+    font-size: 75px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  }
+  .text span.color-b{
+    color:green;
+  }
+  .btn-rent {
+   
+    margin: 50px;
+    padding: 10px 28px;
+    border-radius: 30px;
+    color:black;
+	border:3px solid black;
+  	background:yellow;
+	display:inline-block;
+	border-radius:20px;
+    
+    position: absolute;
+    top:55%;
+    left:15rem;
+  }
+  .btn-rent a{
+    text-decoration: none;
+  }
+  main{
+      width:100%;
+  }
+  main h1 .service{
+    font-weight: bold;
+    font-size: 130px;
+    margin-top: 130px ;
+    margin-left:50px ;
+
+  }
+  .gcontainer
+  {
+      width: 100%;
+      max-width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+.gitem
+  {
+    Width:24rem;
+  Padding:0.7rem;
+  Margin-right:0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 4px solid gray;
+    
+  }
+
+  h1 .latest{
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 500px ;
+    margin-left:50px ;
+
+  }
+  .icontainer
+  {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+.iitem
+  {
+    Width:25rem;
+    Padding:0.7rem;
+    Margin-right:0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid gray;
+    
+  }
+  main h1 .agent{
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 500px ;
+    margin-left:50px ;
+
+  }
+  .acontainer
+  {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+.aitem
+  {
+    Width:25rem;
+    Padding:0.7rem;
+    Margin-right:0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid gray;
+    
+  }
+.mcontainer 
+{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+.mitem
+  {
+    Width:25rem;
+    Padding:0.7rem;
+    Margin-right:0.7rem;
+  }
+  .list
+  {
+    list-style-type: disc;
+  }
+  .list a
+  {
+    text-decoration: none;
+    color:black;
+    
+  }
+  .list a:hover
+  {
+    text-decoration: none;
+    color:green;
+
+  }
+
+
+@media screen and (max-width:1000px)
+	{
+   
+    .banner .welcome br
+    {
+      display:none;
+      
+
+    }
+    .banner .welcome h1
+    {
+      margin:0px;
+      padding:0;
+      font-size:20px;
+    }
+    .banner .welcome span
+    {
+      
+      font-size:1em;
+    }
+
+}
